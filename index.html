@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Advice Genarator App</title>
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
-<body class=" flex flex-col items-center justify-center text-center bg-gray-800 text-white p-5 ">
+<body class=" flex flex-col items-center justify-center text-center bg-gray-800 text-white p-5  font-Manrope">
     <header>
         <h1 class="text-3xl my-4  text-gray-200 font-bold p-3 rounded-xl">Advice Generator App</h1>
     </header>
 
     <main>
-        <section class="bg-gray-700 sm:w-[50%] flex flex-col gap-3 mx-auto p-5 ">
+        <section class="bg-gray-700 sm:w-[60%] flex flex-col gap-3 mx-auto p-5 rounded-2xl ">
             <div><p class="adviceId  text-sm text-green-400 ">ADVICE ID</p></div>
 
             <div>
@@ -26,10 +29,12 @@
             <div class="mx-auto my-5"><img src="./images/pattern-divider-desktop.svg" alt="a thin line"></div>
         </section>
         <!-- button -->
-        <div class="bg-green-400 p-3 rounded-full w-13 h-13 relative z-0 bottom-5 mx-auto"><button class="btn "><img src="./images/icon-dice.svg" alt="a dice"></button></div>
+        <div class="bg-green-400 p-3 rounded-full w-13 h-13 relative z-0 bottom-5 mx-auto hover:bg-green-200 hover:shadow-green-200/50 hover:shadow-2xl"><button class="btn  "><img src="./images/icon-dice.svg" alt="a dice"></button></div>
     </main>
 
-
+    <footer class="text-[8px] font-extralight"><P>Developed by Rufai Awwal, inspired by Frontend Mentor</P>
+    <p>All right reserved ©️ 2026</p>
+    </footer>
 
     <script src="./index.js"></script>
 </body>

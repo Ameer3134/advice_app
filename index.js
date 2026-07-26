@@ -6,6 +6,8 @@ const btn = document.querySelector(".btn");
 
 
 async function getAdvice () {
+displayAdvice.textContent = "Kindly wait as we fetch data ..."
+displayAdvice.style.fontSize = "0.875rem";
 
     const url = 'https://api.adviceslip.com/advice';
 
@@ -28,5 +30,4 @@ adviceId.textContent = `ADVICE: ${adviceData.slip.id}`
 }
 
 // getAdvice()
-btn.addEventListener("click", getAdvice
- )
+btn.addEventListener("click", getAdvice)
